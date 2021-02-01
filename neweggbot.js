@@ -1,5 +1,9 @@
 
 
+// Read this article to connect puppetter to an existing Chrome Instance
+// https://medium.com/@jaredpotter1/connecting-puppeteer-to-existing-chrome-window-8a10828149e0
+
+
 const wsChromeEndpointurl = 'ws://127.0.0.1:9222/devtools/browser/6bc19dab-1e4d-44c2-86b2-c8c73778e6dd'; // Change to your Endpointurl
 const signinUrl = 'https://secure.newegg.com/NewMyAccount/AccountLogin.aspx?nextpage=https%3a%2f%2fwww.newegg.com%2f';
 const addToCartUrl = 'https://secure.newegg.com/Shopping/AddtoCart.aspx?Submit=ADD&ItemList=';
